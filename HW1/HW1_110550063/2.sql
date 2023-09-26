@@ -1,0 +1,1 @@
+SELECT C.Game, CEIL(C.counting / 2) AS num_innings FROM (SELECT I.Game, COUNT(I.Game) AS counting FROM inning I GROUP BY I.Game) AS C WHERE CEIL(C.counting / 2) = (SELECT CEIL(MAX(C.counting) / 2) FROM (SELECT I.Game, COUNT(I.Game) AS counting FROM inning I GROUP BY I.Game) AS C) ORDER BY C.Game ASC;
