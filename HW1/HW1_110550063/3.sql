@@ -1,1 +1,0 @@
-SELECT Pitcher_Id, Name AS Pitcher, ROUND(SUM(IP), 1) AS tol_innings FROM pitchers JOIN players ON pitchers.Pitcher_Id = players.Id JOIN games ON pitchers.Game = games.Game WHERE Date BETWEEN '2021-04-01' AND '2021-11-30' GROUP BY Pitcher_Id ORDER BY tol_innings DESC LIMIT 3;

@@ -1,1 +1,0 @@
-SELECT COUNT(Game) AS cnt FROM games WHERE away_score - home_score >= 10 OR home_score - away_score >= 10;
