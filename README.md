@@ -10,4 +10,4 @@
 2. [Homework 1](https://github.com/Karrs725/NYCU-S23-DBMS/tree/master/HW1) - SQL tasks in MySQL
 3. [Homework 2](https://github.com/Karrs725/NYCU-S23-DBMS/tree/master/HW2) - Extendible Hashing
 4. [Homework 3](https://github.com/Karrs725/NYCU-S23-DBMS/tree/master/HW3) -  SQLite Code Base Exploration
-5. [Final Project](https://github.com/Karrs725/NYCU-S23-DBMS/tree/master/Final) - Movie Recommand System
+5. [Final Project](https://github.com/Karrs725/NYCU-S23-DBMS/tree/master/Final) - Movie Recommend System
